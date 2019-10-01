@@ -2,7 +2,7 @@
 
 namespace MageSuite\ImageOptimization\Service\Image\CommandLine;
 
-class Optimizer implements \MageSuite\Frontend\Service\Image\Optimizer
+class Optimizer implements \MageSuite\ImageOptimization\Service\Image\Optimizer
 {
     /**
      * @var \ImageOptimizer\OptimizerFactory

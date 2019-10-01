@@ -7,11 +7,11 @@ class OptimizeImage extends \Symfony\Component\Console\Command\Command
     const IMAGE_FILE_ARGUMENT = 'image_file';
 
     /**
-     * @var \MageSuite\Frontend\Service\Image\OptimizerFactory
+     * @var \MageSuite\ImageOptimization\Service\Image\OptimizerFactory
      */
     private $optimizerFactory;
 
-    public function __construct(\MageSuite\Frontend\Service\Image\OptimizerFactory $optimizerFactory)
+    public function __construct(\MageSuite\ImageOptimization\Service\Image\OptimizerFactory $optimizerFactory)
     {
         parent::__construct();
 
